@@ -83,7 +83,7 @@ pub enum C1Token {
     #[token("!=")]
     Neq,
 
-    #[regex(r"(true|false)+", priority = 2)]
+    #[regex(r"(true|false)", priority = 2)]
     ConstBoolean,
   
     #[regex(r"([0-9]+[.][0-9]+|[.][0-9]+|[0-9]+[e][0-9]+)")]
